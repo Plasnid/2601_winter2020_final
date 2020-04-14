@@ -22,8 +22,8 @@
  */
 
 /**
- *  * Section 1b.  Crate an object about a candy shop that contains
- *      * a variable that holds an array of products
+ *  * Section 1b.  Create an object about a candy shop that contains
+ *      * a variable that holds an array of items being sold
  *          * each product is an object tht has a name and a price
 *       * a function for purchasing a random product
 *           * the function should return a template literal in the following format
@@ -51,7 +51,7 @@ let pets = [
 
 /**
  * * Section 2a. 1 Dimensional Array Manipulation
- *  * Create a function to: 
+ *  * Create a function that takes in pets as a parameter then: 
  *      * find all the dogs in the pet list using the apropriate array function 
  *      * display their names in alphabetical order using the most efficent array function
  *      * Console log the results. 
@@ -60,11 +60,11 @@ let pets = [
 
 /**
  * * Section 2b.
- * * Create a function to find a dog named Toby. 
+ * * Create a function to find a dog named Toby that takes in pets as a parameter. 
  *      * Find the array position using the apropriate array function and console log it
  *      * remove the entry for a dog named Toby using the apropriate array function
  *      * Console log the array after removing the dog named Toby
- *      * Pleae use fat arrow functions for the array functions
+ *      * Please use fat arrow functions for the array functions
  */
 
 /**
@@ -132,9 +132,11 @@ let cheeses = [
 
 /**
  * * Section 4a.
- * * Create a function that runs a nested for loop(not forEach)
+ * * Create a function that takes in clothing as a parameter
+ * * make your function run a nested for loop(not forEach)
  * * Create a variable in your function to hold an array of summer clothing
  * * Use the nested for loop and if statments to find summer clothing and push it to the summer clothing array
+ * * Console log the array of only summer clothing
  */
 
 let clothing = [
@@ -142,9 +144,12 @@ let clothing = [
     [{ season:"fall", article:"scarf"}, {season:"winter", article:"snow pants"},{season:"summer", article:"sandals"}],
     [{ season:"spring", article:"windbreaker"}, {season:"summer", article:"sun lotion"},{season:"fall", article:"wool socks"}]
 ]
+
 /**
  * * Section 4b.
  * * Add a cost value to every element of the clothing array
+ * * Create a function to add the cost of all items in the clothin array
+ * * Make the function take in the clothing array as a parameter
  * * Create a nested for loop(not forEach) to add up the cost of all the clothing
  * * Console log the final cost of all the clothing together
  */
